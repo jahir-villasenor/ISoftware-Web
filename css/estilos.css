@@ -226,19 +226,38 @@ body {
 .price__element--best{
     width: 370px;
     padding: 60px 40px;
-    background-color: #FF7143;
+    background-color: #5454D4;
     --color-plan: rgb(255 255 255 / 75%);
     --color-price: #fff;
-    --bg-cta: #9F3919;
-    --color-cta: #FFF;
-    --color-items: #fff;
+    --bg-cta: white;
+    --color-cta: #5454D4;
+    --color-items: black;
 }
 
 
 .price__name{
-    color: var(--color-plan);
+    color: #1D293F;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: large;
+}
+.price__name2{
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.price__features{
+    color: #1D293F;
     margin-bottom: 15px;
     font-weight: 300;
+
+}
+.price__features2{
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 300;
+
 }
 
 .price__price{
